@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./assets/code-bg.png" type="image/x-icon">
+    <title>TAGS HTML</title>
+</head>
+
+<body>
+    <img class="img1" src="./assets/flower.png" alt="flower's decoration">
+    <section>
+        <h1 class="title">Tags HTML</h1>
+        <p>Existem centenas de tags HTML, cada uma com uma finalidade específica na criação e estruturação de uma página
+            web. Para facilitar o entendimento, podemos agrupá-las em algumas categorias principais:</p>
+        <h2 class="subTitle">Tags Estruturais Básicas</h2>
+        <p>Essas tags são o alicerce de qualquer documento HTML, definindo a estrutura fundamental da página.</p>
+        <ul>
+            <li>
+                <span> &#60;!DOCTYPE html&#62;</span>: Embora não seja uma tag, é a declaração de tipo de documento. Ela
+                informa ao
+                navegador
+                qual versão do HTML está sendo usada (neste caso, HTML5). É crucial para o navegador renderizar a página
+                corretamente.
+            </li>
+            <li><span>&#60;html&#62;</span>: A tag raiz que engloba todo o conteúdo da página. Tudo o que você vê no
+                navegador está
+                dentro desta tag.</li>
+            <li>
+                <span>&#60;head&#62;</span>: Contém metadados sobre a página, como o título que aparece na aba do
+                navegador, links
+                para
+                folhas de estilo (CSS) e scripts JavaScript, e informações de codificação de caracteres. O conteúdo
+                do <span>&#60;head&#62;</span> não é visível diretamente na página.
+            </li>
+            <li>
+                <span>&#60;body&#62;</span>: Contém todo o conteúdo visível da página, como texto, imagens, vídeos,
+                links e
+                formulários.
+            </li>
+        </ul>
+        <h2 class="subTitle">Tags de Conteúdo de Texto</h2>
+        <p>Essas tags são usadas para formatar e organizar o texto dentro do <span>&#60;body&#62;</span>.</p>
+        <ul>
+            <li>Títulos: <span>&#60;h1&#62;</span> a <span>&#60;h6&#62;</span> - Usadas para definir títulos e
+                subtítulos. <span>&#60;h1&#62;</span> é o mais importante e <span>&#60;h1&#62;</span> o
+                menos. Elas ajudam a estruturar o conteúdo e são importantes para SEO (otimização para
+                mecanismos de busca).
+                <h1>Este é um <span>&#60;h1&#62;</span></h1>
+                <h2>Este é um <span>&#60;h2&#62;</span></h2>
+                <h3>Este é um <span>&#60;h3&#62;</span></h3>
+                <h4>Este é um <span>&#60;h4&#62;</span></h4>
+                <h5>Este é um <span>&#60;h5&#62;</span></h5>
+                <h6>Este é um <span>&#60;h6&#62;</span></h6>
+                <img src="./assets/flower.png" class="img2" alt="flower's decoration">
+            </li>
+            <li>Parágrafos: &#60;p&#62; - Define um parágrafo de texto. É a tag mais comum para blocos de texto.</li>
+            <li>Ênfase e Destaque:<br>
+                <span>&#60;strong&#62;</span>: Indica texto com forte importância, geralmente renderizado em
+                negrito.<strong> Ex: Hello World!</strong><br>
+                <span>&#60;em&#62;</span>: Indica ênfase, geralmente renderizado em itálico. <em>Ex: Hello
+                    World!</em><br>
+                <span>&#60;b&#62;</span>: Usado para negrito sem importância semântica. <b>Ex: Hello World!</b><br>
+                <span>&#60;i&#62;</span>: Usado para itálico sem importância semântica (por exemplo, termos técnicos ou
+                frases em
+                outro idioma). <i>Ex: Hello World!</i><br>
+                <span>&#60;mark&#62;</span>: Usado para realçar partes de um texto. Ex: Hello <mark>World</mark>!<br>
+                <span>&#60;sub&#62;</span>: Usado para subescrever o texto. Ex: Hello World<sub>28</sub>!<br>
+                <span>&#60;sup&#62;</span>: Usado para superescrever o texto. Ex: Hello World<sup>28</sup>!<br>
+            </li>
+            <li>Quebra de Linha e Linha Horizontal:<br>
+                <span>&#60;br&#62;</span>: Insere uma quebra de linha.<br>
+                <span>&#60;hr&#62;</span>: Cria uma linha horizontal, geralmente para separar seções de conteúdo.<br>
+                <small>&#40;Esta é a linha&#8595;&#41;</i></small>
+                <hr>
+            </li>
+            <li>Listas:<br>
+                <span>&#60;ul&#62;</span>: Cria uma lista não ordenada (com marcadores).<br>
+                <span>&#60;ol&#62;</span>: Cria uma lista ordenada (com números ou letras).<br>
+                <span>&#60;li&#62;</span>: Define um item de lista dentro de <span>&#60;ul&#62;</span> ou
+                <span>&#60;ol&#62;</span>.
+            </li>
+        </ul>
+        <h2 class="subTitle">Tags de Links e Mídia</h2>
+        <p>Essas tags permitem adicionar links e incorporar mídia à sua página.</p>
+        <ul>
+            <li>Links: <span>&#60;a&#62;</span> - Usada para criar hiperlinks. O atributo href especifica o URL de
+                destino.<br>
+                Ex: <a href="https://www.viagensecaminhos.com/sao-paulo-sp/">Turismo em São Paulo</a></li>
+            <li>Imagens: <span>&#60;img&#62;</span> - Incorpora uma imagem na página. O atributo src especifica o
+                caminho da imagem e alt fornece texto alternativo para acessibilidade.<br>
+                <img class="sampa"
+                    src="https://www.viagensecaminhos.com/wp-content/uploads/2012/12/sao-paulo-parque-independencia-e-museu-do-ipiranga.jpg"
+                    alt="vista aérea Museu do Ipiranga">
+            </li>
+            <li>Vídeos: <span>&#60;video&#62;</span> - Incorpora um vídeo na página.<br>
+                <video controls>
+                    <source src="./assets/video_sampa.mp4" type="video/mp4">
+                    Seu navegador não suporta este vídeo.
+                </video>
+            </li>
+            <li>Áudios: <span>&#60;audio&#62;</span> - Incorpora um arquivo de áudio na página.<br>
+                <img src="./assets/flower.png" class="img3" alt="flower's decoration">
+                <audio controls>
+                    <source src="./assets/bird-voices-7716.mp3">
+                    Seu navegador não suporta este audio.
+                </audio>
+            </li>
+        </ul>
+        <h2 class="subTitle">Tags de Formulários</h2>
+        <p>Essas tags são usadas para criar formulários interativos que permitem aos usuários inserir
+            dados.</p>
+        <ul>
+            <li><span>&#60;form&#62;</span>: Define um formulário HTML.</li>
+            <li><span>&#60;label&#62;</span>: Associa um rótulo a um controle de formulário.</li>
+            <li><span>&#60;input&#62;</span>: Cria vários tipos de campos de entrada (texto, senha, botão de rádio,
+                checkbox, etc.), dependendo do atributo type.</li>
+            <li><span>&#60;textarea&#62;</span>: Cria uma área de texto de várias linhas.</li>
+            <li><span>&#60;button&#62;</span>: Cria um botão clicável.</li>
+            <li><span>&#60;select&#62;</span>: Cria uma lista suspensa de opções.</li>
+            <li><span>&#60;option&#62;</span>: Define uma opção dentro de um &#60;select&#62;.</li>
+            </li>
+        </ul>
+        <h2 class="subTitle">Tags Semânticas e Estruturais (HTML5)</h2>
+        <p>Com o HTML5, surgiram tags que ajudam a dar mais significado à estrutura da página, melhorando a
+            acessibilidade e o SEO.</p>
+        <ul>
+            <li><span>&#60;header&#62;</span>: Representa o cabeçalho de uma seção ou de toda a página (geralmente
+                contém logotipos, títulos,
+                navegação).</li>
+            <li><span>&#60;nav&#62;</span>: Contém links de navegação.</li>
+            <li><span>&#60;main&#62;</span>: Representa o conteúdo principal do<span>&#60;body&#62;</span>.</li>
+            <li><span>&#60;article&#62;</span>: Representa um conteúdo independente e auto-contido (como um post de blog
+                ou
+                notícia).</li>
+            <li><span>&#60;section&#62;</span>: Agrupa conteúdo relacionado.</li>
+            <li><span>&#60;aside&#62;</span>: Representa conteúdo que está relacionado à seção principal, mas é separado
+                (como uma barra lateral ou informações adicionais).</li>
+            <li><span>&#60;footer&#62;</span>: Representa o rodapé de uma seção ou de toda a página (geralmente
+                contém informações de direitos autorais, links de contato).</li>
+            <li><span>&#60;div&#62;</span>: Uma tag genérica de bloco, muito usada para agrupar elementos para
+                fins de estilo com CSS. Não tem significado semântico por si só.</li>
+            <li><span>&#60;span&#62;</span>: Uma tag genérica de linha, usada para aplicar estilos a pequenas
+                porções de texto. Também não tem significado semântico.</li>
+        </ul>
+        <h2 class="subTitle">Tags de Estilo e Script</h2>
+        <p>Essas tags são usadas para incorporar CSS e JavaScript na sua página.</p>
+        <ul>
+            <li><span>&#60;style&#62;</span>: Usada para escrever estilos CSS diretamente no documento HTML (dentro do
+                &#60;head&#62;).</li>
+            <li><span>&#60;link&#62;</span>: Usada para vincular folhas de estilo externas (CSS). É a forma preferida de
+                adicionar CSS.</li>
+            <li><span>&#60;script&#62;</span>: Usada para incorporar código JavaScript ou para vincular arquivos
+                JavaScript externos.</li>
+        </ul><br><br>
+        <p>Entender as diferentes tags HTML e como usá-las corretamente é o primeiro passo para construir qualquer
+            página web. A prática e a exploração de novas tags são essenciais para dominar a linguagem.</p>
+        <img class="img4" src="./assets/flower.png" alt="flower's decoration">
+    </section>
+</body>
+
+</html>
